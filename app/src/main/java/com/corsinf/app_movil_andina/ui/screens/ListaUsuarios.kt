@@ -62,11 +62,6 @@ import com.corsinf.app_movil_andina.ui.navigation.Screen
 import com.corsinf.app_movil_andina.viewmodels.UsuariosViewModel.UIEventListMsg
 import coil.compose.AsyncImage
 import com.corsinf.app_movil_andina.R
-import com.corsinf.app_movil_andina.ui.theme.AzulVivo
-import com.corsinf.app_movil_andina.ui.theme.Blanco
-import com.corsinf.app_movil_andina.ui.theme.GrisClaro
-import com.corsinf.app_movil_andina.ui.theme.GrisOscuro
-import com.corsinf.app_movil_andina.ui.theme.Negro
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -279,12 +274,12 @@ fun ListaUsuariosScreen(navController: NavController, viewModel: UsuariosViewMod
                                         Text(
                                             text = "${usuario.nombres} ${usuario.apellidos}",
                                             style = MaterialTheme.typography.titleMedium,
-                                            color = AzulVivo
+                                            color = MaterialTheme.colorScheme.primary
                                         )
                                         Text(
                                             text = usuario.email,
                                             style = MaterialTheme.typography.bodyMedium,
-                                            color = GrisOscuro
+                                            color = MaterialTheme.colorScheme.secondary
                                         )
                                     }
                                 }

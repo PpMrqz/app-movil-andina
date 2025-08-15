@@ -14,28 +14,18 @@ val Pink40 = Color(0xFF7D5260)
 // COLORES CORSINF
 
 // Colores institucionales
-val AzulVivo = Color(0xFF169DD9)
-val Negro = Color(0xFF010101)
+val VerdeUASB = Color(0xFF004750)
+val AmarilloUASB = Color(0xFFEBB300)
 
 // Colores secundarions
-val AzulPastel = Color(0xFFB3D9FF)
-val GrisClaro = Color(0xFFE5E5E5)
-val Blanco = Color(0xFFFFFFFF)
-
-val AzulPetroleo = Color(0xFF076E92)
-val GrisOscuro = Color(0xFF333333)
-val Beige = Color(0xFFF5F5DC)
-
-val AzulAcero = Color(0xFF10668D)
-val GrisPizarra = Color(0xFF545A60)
-val AzulMedianoche = Color(0xFF263783)
-
-// Colores complementarios (No estan incluidos: Naranja, VerdeLima)
-val Coral = Color(0xFFEF7768)
-val AmarilloMaiz = Color(0xFFFDCC68)
-val NaranjaOcre = Color(0xFFDD9E4C)
-val VerdeAbeto = Color(0xFF3A745A)
+val VerdeMedioUASB = Color(0xFF006e63)
+val VerdeClaroUASB = Color(0xFF009490)
+val NegroUASB = Color(0xFF212721)
 
 
 // Tonalidades
-val AzulVivoTono0 = Color(0xFFE6F1FB)
+val VerdeUASBTono0 = Color(0xFFC8D6D9)
+
+
+// Otros
+val Blanco = Color(0xFFFFFFFF)

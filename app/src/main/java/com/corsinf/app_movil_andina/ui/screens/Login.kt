@@ -54,7 +54,7 @@ fun LoginScreen(navController: NavController) {
             modifier = Modifier
                 .fillMaxWidth()
                 .heightIn(min = 200.dp, max = 300.dp)
-                .background(MaterialTheme.colorScheme.primary)
+                .background(MaterialTheme.colorScheme.surface)
         ) {
             Column(
                 modifier = Modifier
@@ -63,13 +63,13 @@ fun LoginScreen(navController: NavController) {
             ) {
                 Text(
                     text = "Corsinf",
-                    color = MaterialTheme.colorScheme.onPrimary,
+                    color = MaterialTheme.colorScheme.onSurface,
                     fontSize = 36.sp,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
                     text = "Sistema de Gestión de Clientes",
-                    color = MaterialTheme.colorScheme.onPrimary,
+                    color = MaterialTheme.colorScheme.onSurface,
                     fontSize = 16.sp
                 )
             }
