@@ -34,7 +34,10 @@ import androidx.compose.material.icons.filled.VisibilityOff
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedTextField
+import com.corsinf.app_movil_andina.ui.components.CustomOutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
+import androidx.compose.material3.TextFieldDefaults
+import com.corsinf.app_movil_andina.ui.components.CustomOutlinedTextField
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -95,20 +98,20 @@ fun LoginScreen(navController: NavController) {
 
             Spacer(modifier = Modifier.height(32.dp))
 
-            OutlinedTextField(
+            CustomOutlinedTextField(
                 value = usuario,
                 onValueChange = { usuario = it },
-                label = { Text("Usuario") },
+                label = "Usuario",
                 modifier = Modifier.fillMaxWidth(),
-                singleLine = true
+                singleLine = true,
             )
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            OutlinedTextField(
+            CustomOutlinedTextField(
                 value = contrasena,
                 onValueChange = { contrasena = it },
-                label = { Text("Contraseña") },
+                label = "Contraseña",
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true,
                 visualTransformation = if (contrasenaVisible) VisualTransformation.None else PasswordVisualTransformation(),
